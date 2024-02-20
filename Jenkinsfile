@@ -18,7 +18,7 @@ pipeline {
                 cp ./jenkins.pem ~/.ssh/
                 cp ./config ~/.ssh/
                 cd ~/.ssh/
-                scp -i ./jenkins.pem *.html ubuntu@54.227.159.255:~/
+                scp -i ./jenkins.pem *.html ubuntu@54.227.159.255:/home/ubuntu
                 '''
                 // ssh 54.227.159.255
                 // yes |sudo apt-get install git 
