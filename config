@@ -1,3 +1,3 @@
 Host 54.227.159.255
-    IdentityFile /home/vickynila/Documents/jenkins.pem
+    IdentityFile ~/jenkins.pem
     User ubuntu
