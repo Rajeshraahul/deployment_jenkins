@@ -15,7 +15,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh '''
-                mkdir ~/.ssh
                 cp ./jenkins.pem ~/.ssh/
                 cp ./config ~/.ssh/
                 cd ~/.ssh/
